@@ -1,0 +1,3062 @@
+{
+ "profile": {
+  "id": 1,
+  "name": "Brodie Shaw",
+  "units": "kg",
+  "bar_weight": 20.0,
+  "guided": 1,
+  "advanced": 0,
+  "theme": "auto",
+  "active_program": 3
+ },
+ "templates": [
+  {
+   "id": 1,
+   "name": "First time in a gym",
+   "is_template": 1,
+   "blurb": "One full-body session you repeat three times a week, all on machines. Machines hold the movement for you, so there is much less to get wrong while you learn.",
+   "who": "You have never lifted, or it has been long enough that it feels that way.",
+   "days_wk": 3,
+   "equipment": "machines",
+   "level": "new",
+   "source": "Built on the ACSM guidance of 8\u201310 full-body exercises for new lifters, in the shape gyms like Gold's teach it.",
+   "notes": "Leave a day between sessions. Add weight only when the last set feels easy.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "F",
+     "name": "Full body",
+     "kind": "main",
+     "follows": null,
+     "colour": "#2C7A4E",
+     "position": 1
+    }
+   ],
+   "exercises": [
+    {
+     "id": 1,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Leg Press",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Feet shoulder-width on the platform, lower until your knees are near 90 degrees. Never lock your knees hard at the top.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 2,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Chest Press Machine",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Set the seat so the handles sit at chest height. Press out smoothly, don't lock the elbows.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 3,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Seated Row Machine",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Chest against the pad, pull the handles to your ribs, squeeze the shoulder blades.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 4,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Lat Pulldowns",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 5,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Shoulder Press Machine",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Seat height so the handles start at shoulder level. Press up without shrugging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    },
+    {
+     "id": 6,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Leg Curl",
+     "sets": 2,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Pad just above your heels. Curl towards your backside, lower slowly.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 6
+    },
+    {
+     "id": 7,
+     "program_id": 1,
+     "workout_code": "F",
+     "name": "Plank",
+     "sets": 2,
+     "rep_scheme": "20s",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Straight line head to heels. Squeeze your glutes so your hips don't sag.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 7
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 1.25,
+     "lower_add": 2.5,
+     "label": "You hit the target"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "A few reps clear"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "Well clear \u2014 bigger jump"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "rest",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "rest",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "rest",
+     "cardio": ""
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "r/Fitness Basic Beginner Routine",
+   "is_template": 1,
+   "blurb": "Two alternating barbell sessions, three days a week: A, B, A one week and B, A, B the next. Five movements total, so you can learn them properly.",
+   "who": "New to barbells and happy to use a squat rack.",
+   "days_wk": 3,
+   "equipment": "barbell",
+   "level": "new",
+   "source": "The r/Fitness wiki's primary recommended beginner routine.",
+   "notes": "Run this for three months at most, then move up to something with more volume. Add 1.25 kg to upper-body lifts and 2.5 kg to lower-body lifts each time you do them; over ten reps on the last set, double it. If you cannot get fifteen reps across the three sets, drop the weight 10 percent next time.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "A",
+     "name": "Row \u00b7 Bench \u00b7 Squat",
+     "kind": "main",
+     "follows": null,
+     "colour": "#B7242B",
+     "position": 1
+    },
+    {
+     "code": "B",
+     "name": "Pull \u00b7 Press \u00b7 Deadlift",
+     "kind": "main",
+     "follows": null,
+     "colour": "#1C4E86",
+     "position": 2
+    }
+   ],
+   "exercises": [
+    {
+     "id": 8,
+     "program_id": 2,
+     "workout_code": "A",
+     "name": "Barbell Row",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Hinge forward with a flat back, pull the bar to your lower ribs, elbows close to your body.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 9,
+     "program_id": 2,
+     "workout_code": "A",
+     "name": "Bench Press",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 10,
+     "program_id": 2,
+     "workout_code": "A",
+     "name": "Squats",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees over your toes. Go as deep as you can keep a flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 11,
+     "program_id": 2,
+     "workout_code": "B",
+     "name": "Chin-ups",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Palms facing you, hang with straight arms, pull until your chin clears the bar. Use the assisted machine or a band if you need to.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 12,
+     "program_id": 2,
+     "workout_code": "B",
+     "name": "Overhead Press",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 13,
+     "program_id": 2,
+     "workout_code": "B",
+     "name": "Deadlift",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 180,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar over mid-foot, shins close, flat back, chest up. Push the floor away instead of yanking. Stop the set the moment your back rounds.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 1.25,
+     "lower_add": 2.5,
+     "label": "Standard r/Fitness jump"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "Well clear \u2014 double it"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "Far clear of the target"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "rest",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "rest",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "rest",
+     "cardio": ""
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "name": "Gym Phase 1",
+   "is_template": 1,
+   "blurb": "Two main lifting days plus two light days for grip, core and arms, with cardio built in. More work than a bare beginner routine without being overwhelming.",
+   "who": "You have a few weeks behind you and want more than three sessions.",
+   "days_wk": 5,
+   "equipment": "any",
+   "level": "returning",
+   "source": "Your own program, tidied up.",
+   "notes": "Main lifts alternate A, B, A. Light day X always follows A and Y always follows B.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "A",
+     "name": "Row \u00b7 Bench \u00b7 Squat",
+     "kind": "main",
+     "follows": null,
+     "colour": "#B7242B",
+     "position": 1
+    },
+    {
+     "code": "B",
+     "name": "Pulldown \u00b7 Press \u00b7 Deadlift",
+     "kind": "main",
+     "follows": null,
+     "colour": "#1C4E86",
+     "position": 2
+    },
+    {
+     "code": "X",
+     "name": "Grip and posterior",
+     "kind": "light",
+     "follows": "A",
+     "colour": "#2C7A4E",
+     "position": 3
+    },
+    {
+     "code": "Y",
+     "name": "Arms and core",
+     "kind": "light",
+     "follows": "B",
+     "colour": "#B58200",
+     "position": 4
+    }
+   ],
+   "exercises": [
+    {
+     "id": 14,
+     "program_id": 3,
+     "workout_code": "A",
+     "name": "Seated Rows",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": 50.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Chest tall, pull the handle to your belly button, squeeze your shoulder blades together, control it back out.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 15,
+     "program_id": 3,
+     "workout_code": "A",
+     "name": "Bench Press",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": 40.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 16,
+     "program_id": 3,
+     "workout_code": "A",
+     "name": "Squats",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": 20.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees over your toes. Go as deep as you can keep a flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 17,
+     "program_id": 3,
+     "workout_code": "B",
+     "name": "Lat Pulldowns",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": 60.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 18,
+     "program_id": 3,
+     "workout_code": "B",
+     "name": "Overhead Press",
+     "sets": 3,
+     "rep_scheme": "5+",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": 25.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 19,
+     "program_id": 3,
+     "workout_code": "B",
+     "name": "Deadlift",
+     "sets": 1,
+     "rep_scheme": "5",
+     "rest_seconds": 180,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": 30.0,
+     "fixed_increment": 5.0,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar over mid-foot, shins close, flat back, chest up. Push the floor away instead of yanking. Stop the set the moment your back rounds.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 20,
+     "program_id": 3,
+     "workout_code": "X",
+     "name": "Face pulls",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": 12.5,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Rope at eye height. Pull towards your forehead, elbows high and wide. Light weight, slow.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 21,
+     "program_id": 3,
+     "workout_code": "X",
+     "name": "Supermans",
+     "sets": 4,
+     "rep_scheme": "10s",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Face down, lift your chest and thighs off the floor and hold.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 22,
+     "program_id": 3,
+     "workout_code": "X",
+     "name": "Farmer's carry",
+     "sets": 3,
+     "rep_scheme": "30s",
+     "rest_seconds": 90,
+     "body_area": "grip",
+     "tracks_weight": 1,
+     "current_weight": 50.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "A heavy dumbbell in each hand. Stand tall, walk steady, don't lean.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 23,
+     "program_id": 3,
+     "workout_code": "X",
+     "name": "Plate pinches",
+     "sets": 3,
+     "rep_scheme": "8",
+     "rest_seconds": 90,
+     "body_area": "grip",
+     "tracks_weight": 1,
+     "current_weight": 5.0,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "Pinch two plates smooth-side-out between thumb and fingers. Hold.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 24,
+     "program_id": 3,
+     "workout_code": "X",
+     "name": "Dead hang",
+     "sets": 1,
+     "rep_scheme": "30s",
+     "rest_seconds": 90,
+     "body_area": "grip",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "Hang from the bar, arms straight, shoulders pulled slightly down.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    },
+    {
+     "id": 25,
+     "program_id": 3,
+     "workout_code": "Y",
+     "name": "Curls",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Elbows still, no swinging. Lower slower than you lift.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 26,
+     "program_id": 3,
+     "workout_code": "Y",
+     "name": "Calf raises",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Full stretch at the bottom, pause at the top of every rep.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 27,
+     "program_id": 3,
+     "workout_code": "Y",
+     "name": "Plank",
+     "sets": 2,
+     "rep_scheme": "30s",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "Straight line head to heels. Squeeze your glutes so your hips don't sag.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 28,
+     "program_id": 3,
+     "workout_code": "Y",
+     "name": "Hanging leg raises",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "Hang still, lift your legs without swinging. Bend the knees if it's too hard.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 29,
+     "program_id": 3,
+     "workout_code": "Y",
+     "name": "Weighted crunches",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 1,
+     "is_barbell": 0,
+     "cue": "Weight on your chest, curl your ribs towards your hips. Don't pull on your neck.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "You hit the target"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "A few reps clear"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 7.5,
+     "lower_add": 15.0,
+     "label": "Well clear \u2014 bigger jump"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "light",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "rest",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "light",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "main",
+     "cardio": ""
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "name": "GZCLP",
+   "is_template": 1,
+   "blurb": "Four rotating sessions, three a week. Each one has a heavy lift, a lighter version of another lift, and an accessory \u2014 so you get far more volume than a plain beginner routine.",
+   "who": "You have finished a beginner routine and want the next step up.",
+   "days_wk": 3,
+   "equipment": "barbell",
+   "level": "experienced",
+   "source": "Cody Lefever's GZCLP, the routine the r/Fitness wiki names as the usual step after the beginner program.",
+   "notes": "Heavy lift: five sets of three, last set as many as you can. Middle lift: three sets of ten. Accessory: three sets of fifteen, last set as many as you can \u2014 add weight there once you pass twenty-five.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "A1",
+     "name": "Heavy squat",
+     "kind": "main",
+     "follows": null,
+     "colour": "#B7242B",
+     "position": 1
+    },
+    {
+     "code": "A2",
+     "name": "Heavy press",
+     "kind": "main",
+     "follows": null,
+     "colour": "#1C4E86",
+     "position": 2
+    },
+    {
+     "code": "B1",
+     "name": "Heavy bench",
+     "kind": "main",
+     "follows": null,
+     "colour": "#6B3FA0",
+     "position": 3
+    },
+    {
+     "code": "B2",
+     "name": "Heavy deadlift",
+     "kind": "main",
+     "follows": null,
+     "colour": "#0F6E78",
+     "position": 4
+    }
+   ],
+   "exercises": [
+    {
+     "id": 30,
+     "program_id": 4,
+     "workout_code": "A1",
+     "name": "Squats",
+     "sets": 5,
+     "rep_scheme": "3+",
+     "rest_seconds": 180,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees over your toes. Go as deep as you can keep a flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 31,
+     "program_id": 4,
+     "workout_code": "A1",
+     "name": "Bench Press",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 120,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 32,
+     "program_id": 4,
+     "workout_code": "A1",
+     "name": "Lat Pulldowns",
+     "sets": 3,
+     "rep_scheme": "15+",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 33,
+     "program_id": 4,
+     "workout_code": "A2",
+     "name": "Overhead Press",
+     "sets": 5,
+     "rep_scheme": "3+",
+     "rest_seconds": 180,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 34,
+     "program_id": 4,
+     "workout_code": "A2",
+     "name": "Deadlift",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 150,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar over mid-foot, shins close, flat back, chest up. Push the floor away instead of yanking. Stop the set the moment your back rounds.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 35,
+     "program_id": 4,
+     "workout_code": "A2",
+     "name": "One-arm Dumbbell Row",
+     "sets": 3,
+     "rep_scheme": "15+",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "One knee and hand on a bench, flat back, pull the dumbbell to your hip.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 36,
+     "program_id": 4,
+     "workout_code": "B1",
+     "name": "Bench Press",
+     "sets": 5,
+     "rep_scheme": "3+",
+     "rest_seconds": 180,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 37,
+     "program_id": 4,
+     "workout_code": "B1",
+     "name": "Squats",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 120,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees over your toes. Go as deep as you can keep a flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 38,
+     "program_id": 4,
+     "workout_code": "B1",
+     "name": "Lat Pulldowns",
+     "sets": 3,
+     "rep_scheme": "15+",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 39,
+     "program_id": 4,
+     "workout_code": "B2",
+     "name": "Deadlift",
+     "sets": 5,
+     "rep_scheme": "3+",
+     "rest_seconds": 180,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar over mid-foot, shins close, flat back, chest up. Push the floor away instead of yanking. Stop the set the moment your back rounds.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 40,
+     "program_id": 4,
+     "workout_code": "B2",
+     "name": "Overhead Press",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 120,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 41,
+     "program_id": 4,
+     "workout_code": "B2",
+     "name": "One-arm Dumbbell Row",
+     "sets": 3,
+     "rep_scheme": "15+",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "One knee and hand on a bench, flat back, pull the dumbbell to your hip.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "You hit the target"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "A few reps clear"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 7.5,
+     "lower_add": 15.0,
+     "label": "Well clear \u2014 bigger jump"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "rest",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "rest",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "rest",
+     "cardio": ""
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "name": "Dumbbells only",
+   "is_template": 1,
+   "blurb": "A full-body session with nothing but a pair of dumbbells and a bench. Works at home or in a busy gym where the racks are always taken.",
+   "who": "No barbell, or you would rather not use one yet.",
+   "days_wk": 3,
+   "equipment": "dumbbell",
+   "level": "new",
+   "source": "A standard full-body dumbbell template, same movement patterns as the barbell routines.",
+   "notes": "Repeat the same session two or three times a week with a rest day between.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "D",
+     "name": "Full body",
+     "kind": "main",
+     "follows": null,
+     "colour": "#B58200",
+     "position": 1
+    }
+   ],
+   "exercises": [
+    {
+     "id": 42,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "Goblet Squat",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Hold one dumbbell at your chest. Sit down between your hips, elbows inside your knees.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 43,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "Dumbbell Bench Press",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Dumbbells at chest height, press up until they nearly touch. Keep your wrists straight.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 44,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "One-arm Dumbbell Row",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "One knee and hand on a bench, flat back, pull the dumbbell to your hip.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 45,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "Dumbbell Romanian Deadlift",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Soft knees, hinge at the hips, dumbbells sliding down your thighs, flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 46,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "Dumbbell Shoulder Press",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Dumbbells at shoulder height, press overhead without arching your lower back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    },
+    {
+     "id": 47,
+     "program_id": 5,
+     "workout_code": "D",
+     "name": "Plank",
+     "sets": 3,
+     "rep_scheme": "30s",
+     "rest_seconds": 60,
+     "body_area": "core",
+     "tracks_weight": 0,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Straight line head to heels. Squeeze your glutes so your hips don't sag.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 6
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 1.25,
+     "lower_add": 2.5,
+     "label": "You hit the target"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "A few reps clear"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "Well clear \u2014 bigger jump"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "rest",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "main",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "rest",
+     "cardio": ""
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "name": "Upper and lower, four days",
+   "is_template": 1,
+   "blurb": "Two upper-body days and two lower-body days a week. More exercises per session and more room for the bits you want to bring up.",
+   "who": "You have trained consistently for a while and want four sessions.",
+   "days_wk": 4,
+   "equipment": "any",
+   "level": "experienced",
+   "source": "The standard four-day upper/lower split recommended for intermediates.",
+   "notes": "Upper, lower, rest, upper, lower, rest, rest works well.",
+   "created": "2026-09-08",
+   "workouts": [
+    {
+     "code": "U",
+     "name": "Upper body",
+     "kind": "main",
+     "follows": null,
+     "colour": "#1C4E86",
+     "position": 1
+    },
+    {
+     "code": "L",
+     "name": "Lower body",
+     "kind": "main",
+     "follows": null,
+     "colour": "#B7242B",
+     "position": 2
+    }
+   ],
+   "exercises": [
+    {
+     "id": 54,
+     "program_id": 6,
+     "workout_code": "L",
+     "name": "Squats",
+     "sets": 4,
+     "rep_scheme": "6",
+     "rest_seconds": 180,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees over your toes. Go as deep as you can keep a flat back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 55,
+     "program_id": 6,
+     "workout_code": "L",
+     "name": "Romanian Deadlift",
+     "sets": 3,
+     "rep_scheme": "8",
+     "rest_seconds": 150,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Soft knees, push your hips back and slide the bar down your thighs. Stop when you feel the stretch behind your knees.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 56,
+     "program_id": 6,
+     "workout_code": "L",
+     "name": "Leg Press",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 120,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Feet shoulder-width on the platform, lower until your knees are near 90 degrees. Never lock your knees hard at the top.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 57,
+     "program_id": 6,
+     "workout_code": "L",
+     "name": "Leg Curl",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 90,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Pad just above your heels. Curl towards your backside, lower slowly.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 58,
+     "program_id": 6,
+     "workout_code": "L",
+     "name": "Calf raises",
+     "sets": 4,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "lower",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Full stretch at the bottom, pause at the top of every rep.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    },
+    {
+     "id": 48,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Bench Press",
+     "sets": 4,
+     "rep_scheme": "6",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 1
+    },
+    {
+     "id": 49,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Barbell Row",
+     "sets": 4,
+     "rep_scheme": "8",
+     "rest_seconds": 150,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Hinge forward with a flat back, pull the bar to your lower ribs, elbows close to your body.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 2
+    },
+    {
+     "id": 50,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Overhead Press",
+     "sets": 3,
+     "rep_scheme": "8",
+     "rest_seconds": 120,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 1,
+     "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 3
+    },
+    {
+     "id": 51,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Lat Pulldowns",
+     "sets": 3,
+     "rep_scheme": "10",
+     "rest_seconds": 90,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 4
+    },
+    {
+     "id": 52,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Curls",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Elbows still, no swinging. Lower slower than you lift.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 5
+    },
+    {
+     "id": 53,
+     "program_id": 6,
+     "workout_code": "U",
+     "name": "Tricep pushdown",
+     "sets": 3,
+     "rep_scheme": "12",
+     "rest_seconds": 60,
+     "body_area": "upper",
+     "tracks_weight": 1,
+     "current_weight": null,
+     "fixed_increment": null,
+     "is_optional": 0,
+     "is_rotation": 0,
+     "is_barbell": 0,
+     "cue": "Elbows pinned to your sides. Straighten the arms, control the way back.",
+     "sessions": 0,
+     "sessions_at_weight": 0,
+     "position": 6
+    }
+   ],
+   "rules": [
+    {
+     "min_reps": 0,
+     "max_reps": 2,
+     "upper_add": 2.5,
+     "lower_add": 5.0,
+     "label": "You hit the target"
+    },
+    {
+     "min_reps": 3,
+     "max_reps": 5,
+     "upper_add": 5.0,
+     "lower_add": 10.0,
+     "label": "A few reps clear"
+    },
+    {
+     "min_reps": 6,
+     "max_reps": 99,
+     "upper_add": 7.5,
+     "lower_add": 15.0,
+     "label": "Well clear \u2014 bigger jump"
+    }
+   ],
+   "schedule": [
+    {
+     "day": "Monday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Tuesday",
+     "slot": "main",
+     "cardio": "Easy cardio"
+    },
+    {
+     "day": "Wednesday",
+     "slot": "rest",
+     "cardio": ""
+    },
+    {
+     "day": "Thursday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Friday",
+     "slot": "main",
+     "cardio": ""
+    },
+    {
+     "day": "Saturday",
+     "slot": "rest",
+     "cardio": "Intervals"
+    },
+    {
+     "day": "Sunday",
+     "slot": "rest",
+     "cardio": ""
+    }
+   ]
+  }
+ ],
+ "cardio": [
+  {
+   "intensity": "low",
+   "name": "Brisk walk"
+  },
+  {
+   "intensity": "low",
+   "name": "Light cycling"
+  },
+  {
+   "intensity": "low",
+   "name": "Elliptical"
+  },
+  {
+   "intensity": "low",
+   "name": "Jogging"
+  },
+  {
+   "intensity": "hiit",
+   "name": "Stationary bike"
+  },
+  {
+   "intensity": "hiit",
+   "name": "Rowing machine"
+  },
+  {
+   "intensity": "hiit",
+   "name": "Boxing"
+  },
+  {
+   "intensity": "hiit",
+   "name": "Elliptical"
+  }
+ ],
+ "mobility": [
+  {
+   "phase": "post",
+   "name": "Standing quad stretch",
+   "prescription": "30s each leg",
+   "position": 1
+  },
+  {
+   "phase": "post",
+   "name": "Hamstring stretch",
+   "prescription": "30s each way",
+   "position": 2
+  },
+  {
+   "phase": "post",
+   "name": "Butterfly stretch",
+   "prescription": "30s",
+   "position": 3
+  },
+  {
+   "phase": "post",
+   "name": "IT band stretch",
+   "prescription": "30s each way",
+   "position": 4
+  },
+  {
+   "phase": "post",
+   "name": "Wall calf stretch",
+   "prescription": "30s each side",
+   "position": 5
+  },
+  {
+   "phase": "post",
+   "name": "World's greatest stretch",
+   "prescription": "20s each way",
+   "position": 6
+  },
+  {
+   "phase": "post",
+   "name": "Cobra pose",
+   "prescription": "30s",
+   "position": 7
+  },
+  {
+   "phase": "post",
+   "name": "Downward dog",
+   "prescription": "30s",
+   "position": 8
+  },
+  {
+   "phase": "post",
+   "name": "Child's pose",
+   "prescription": "45s",
+   "position": 9
+  },
+  {
+   "phase": "pre",
+   "name": "Light cardio",
+   "prescription": "3\u20135 min",
+   "position": 1
+  },
+  {
+   "phase": "pre",
+   "name": "Arm circles, cross-directional",
+   "prescription": "5 each way",
+   "position": 2
+  },
+  {
+   "phase": "pre",
+   "name": "Arm circles, same direction",
+   "prescription": "5 each way",
+   "position": 3
+  },
+  {
+   "phase": "pre",
+   "name": "Leg swings, front-back",
+   "prescription": "5 each leg",
+   "position": 4
+  },
+  {
+   "phase": "pre",
+   "name": "Leg swings, side-side",
+   "prescription": "5 each leg",
+   "position": 5
+  },
+  {
+   "phase": "pre",
+   "name": "Lunge + rotation",
+   "prescription": "1 each side",
+   "position": 6
+  },
+  {
+   "phase": "pre",
+   "name": "Glute bridges",
+   "prescription": "10\u201315",
+   "position": 7
+  },
+  {
+   "phase": "pre",
+   "name": "Ankle circles",
+   "prescription": "10 each way",
+   "position": 8
+  }
+ ],
+ "library": [
+  {
+   "slug": "back-squat",
+   "name": "Back Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes",
+    "core"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Bar on your upper back, feet shoulder-width. Sit down between your hips, knees tracking over your toes. Go as deep as you can keep a flat back."
+  },
+  {
+   "slug": "goblet-squat",
+   "name": "Goblet Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes",
+    "core"
+   ],
+   "equipment": "dumbbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Hold one dumbbell at your chest. Sit down between your hips, elbows inside your knees, chest tall."
+  },
+  {
+   "slug": "leg-press",
+   "name": "Leg Press",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Feet shoulder-width on the platform. Lower until your knees are near 90 degrees. Never slam your knees straight at the top."
+  },
+  {
+   "slug": "hack-squat",
+   "name": "Hack Squat Machine",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Shoulders under the pads, feet mid-platform. Lower slowly, push through the whole foot."
+  },
+  {
+   "slug": "split-squat",
+   "name": "Bulgarian Split Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Back foot on a bench, drop straight down, front knee tracking over the foot. Hold the rail if you wobble."
+  },
+  {
+   "slug": "walking-lunge",
+   "name": "Walking Lunge",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Long step forward, back knee towards the floor, stand up through the front heel."
+  },
+  {
+   "slug": "deadlift",
+   "name": "Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes",
+    "back"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Bar over mid-foot, shins close, flat back, chest up. Push the floor away instead of yanking. Stop the set the moment your back rounds."
+  },
+  {
+   "slug": "romanian-deadlift",
+   "name": "Romanian Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Soft knees, push your hips back and slide the bar down your thighs. Stop when you feel the stretch behind your knees."
+  },
+  {
+   "slug": "db-rdl",
+   "name": "Dumbbell Romanian Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Soft knees, hinge at the hips, dumbbells sliding down your thighs, back flat throughout."
+  },
+  {
+   "slug": "hip-thrust",
+   "name": "Hip Thrust",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Shoulders on a bench, bar padded across the hips. Drive through your heels, squeeze at the top, keep your ribs down."
+  },
+  {
+   "slug": "hip-thrust-m",
+   "name": "Hip Thrust Machine",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Back against the pad, belt or bar across your hips. Drive through your heels, squeeze at the top, ribs down."
+  },
+  {
+   "slug": "single-leg-rdl",
+   "name": "Single-leg Romanian Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Stand on one leg, hinge forward reaching the dumbbell towards the floor, back flat. Hold something for balance."
+  },
+  {
+   "slug": "glute-bridge",
+   "name": "Glute Bridge",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "On your back, feet flat and close to your backside. Drive the hips up, squeeze, lower slowly."
+  },
+  {
+   "slug": "back-extension",
+   "name": "Back Extension",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes",
+    "back"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Pads at your hips, fold forward with a flat back, squeeze your glutes to come up. No swinging."
+  },
+  {
+   "slug": "leg-curl",
+   "name": "Leg Curl",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Pad just above your heels. Curl towards your backside, lower slowly."
+  },
+  {
+   "slug": "glute-bridge-m",
+   "name": "Glute Machine",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Feet flat, drive the hips up, pause at the top, lower under control."
+  },
+  {
+   "slug": "bench-press",
+   "name": "Bench Press",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Shoulder blades pinched back, feet flat. Bar to mid-chest, elbows about 45 degrees from your body. Use the rack safeties or ask for a spot."
+  },
+  {
+   "slug": "db-bench",
+   "name": "Dumbbell Bench Press",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "triceps",
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Dumbbells at chest height, press up until they nearly touch. Keep your wrists straight over your elbows."
+  },
+  {
+   "slug": "chest-press-m",
+   "name": "Chest Press Machine",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "triceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Set the seat so the handles sit at chest height. Press out smoothly, don't snap your elbows straight."
+  },
+  {
+   "slug": "incline-db",
+   "name": "Incline Dumbbell Press",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Bench at about 30 degrees. Press up and slightly together, control the way down."
+  },
+  {
+   "slug": "db-fly",
+   "name": "Dumbbell Fly",
+   "pattern": "hpush",
+   "muscles": [
+    "chest"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Lie back, soft elbows, open your arms wide then bring them together above your chest."
+  },
+  {
+   "slug": "push-up",
+   "name": "Push-ups",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "triceps",
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Hands under your shoulders, body in a straight line. Hands on a bench makes it easier."
+  },
+  {
+   "slug": "cable-fly",
+   "name": "Cable Fly",
+   "pattern": "hpush",
+   "muscles": [
+    "chest"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Soft elbows, bring the handles together in front of your chest like you're hugging someone."
+  },
+  {
+   "slug": "ohp",
+   "name": "Overhead Press",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Bar at collarbone height, stomach tight. Press up and slightly back so it finishes over your ears."
+  },
+  {
+   "slug": "db-shoulder-press",
+   "name": "Dumbbell Shoulder Press",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Dumbbells at shoulder height, press overhead without arching your lower back."
+  },
+  {
+   "slug": "shoulder-press-m",
+   "name": "Shoulder Press Machine",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Seat height so the handles start at shoulder level. Press up without shrugging."
+  },
+  {
+   "slug": "lateral-raise",
+   "name": "Lateral Raise",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Light dumbbells, lift out to the sides to shoulder height with a slight bend in the elbows."
+  },
+  {
+   "slug": "barbell-row",
+   "name": "Barbell Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Hinge forward with a flat back, pull the bar to your lower ribs, elbows close to your body."
+  },
+  {
+   "slug": "db-row",
+   "name": "One-arm Dumbbell Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "One knee and hand on a bench, flat back, pull the dumbbell to your hip."
+  },
+  {
+   "slug": "seated-row-m",
+   "name": "Seated Row Machine",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Chest against the pad, pull the handles to your ribs, squeeze your shoulder blades together."
+  },
+  {
+   "slug": "cable-row",
+   "name": "Cable Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "cable",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Sit tall, pull to your belly button, shoulders back, control the return."
+  },
+  {
+   "slug": "face-pull",
+   "name": "Face Pull",
+   "pattern": "hpull",
+   "muscles": [
+    "shoulders",
+    "back"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Rope at eye height. Pull towards your forehead with elbows high and wide. Light weight, slow."
+  },
+  {
+   "slug": "rear-delt-fly",
+   "name": "Rear Delt Fly",
+   "pattern": "hpull",
+   "muscles": [
+    "shoulders",
+    "back"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Hinge forward, light dumbbells, open your arms out to the sides like wings."
+  },
+  {
+   "slug": "shrug",
+   "name": "Shrug",
+   "pattern": "hpull",
+   "muscles": [
+    "back"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Lift your shoulders straight up towards your ears, pause, lower slowly. No rolling."
+  },
+  {
+   "slug": "lat-pulldown",
+   "name": "Lat Pulldown",
+   "pattern": "vpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Thighs under the pad. Pull the bar to your collarbone leading with the elbows. No swinging."
+  },
+  {
+   "slug": "chin-up",
+   "name": "Chin-ups",
+   "pattern": "vpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "bodyweight",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Palms facing you, hang with straight arms, pull until your chin clears the bar. The assisted machine or a band is fine."
+  },
+  {
+   "slug": "straight-arm-pd",
+   "name": "Straight-arm Pulldown",
+   "pattern": "vpull",
+   "muscles": [
+    "back"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Arms nearly straight, sweep the bar down to your thighs using your back, not your arms."
+  },
+  {
+   "slug": "curl",
+   "name": "Dumbbell Curl",
+   "pattern": "arms",
+   "muscles": [
+    "biceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Elbows still at your sides, no swinging. Lower slower than you lift."
+  },
+  {
+   "slug": "hammer-curl",
+   "name": "Hammer Curl",
+   "pattern": "arms",
+   "muscles": [
+    "biceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Palms facing each other the whole way. Elbows pinned to your sides."
+  },
+  {
+   "slug": "tricep-pushdown",
+   "name": "Tricep Pushdown",
+   "pattern": "arms",
+   "muscles": [
+    "triceps"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Elbows pinned to your sides. Straighten the arms fully, control the way back."
+  },
+  {
+   "slug": "overhead-tricep",
+   "name": "Overhead Tricep Extension",
+   "pattern": "arms",
+   "muscles": [
+    "triceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "One dumbbell behind your head, elbows pointing up, straighten the arms."
+  },
+  {
+   "slug": "calf-raise",
+   "name": "Calf Raise",
+   "pattern": "calves",
+   "muscles": [
+    "calves"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Full stretch at the bottom, pause for a second at the top of every rep."
+  },
+  {
+   "slug": "standing-calf",
+   "name": "Standing Calf Raise",
+   "pattern": "calves",
+   "muscles": [
+    "calves"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Balls of your feet on a step, heels down for a stretch, up onto your toes and hold."
+  },
+  {
+   "slug": "leg-extension",
+   "name": "Leg Extension",
+   "pattern": "squat",
+   "muscles": [
+    "quads"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Pad above your ankles. Straighten the legs, pause a beat, lower under control."
+  },
+  {
+   "slug": "plank",
+   "name": "Plank",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Straight line from head to heels. Squeeze your glutes so your hips don't sag."
+  },
+  {
+   "slug": "hanging-leg-raise",
+   "name": "Hanging Leg Raise",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Hang still, then lift your legs without swinging. Bend the knees if straight legs are too hard."
+  },
+  {
+   "slug": "cable-crunch",
+   "name": "Cable Crunch",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Kneel facing the machine, rope by your head, curl your ribs down towards your hips."
+  },
+  {
+   "slug": "dead-bug",
+   "name": "Dead Bug",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "On your back, lower opposite arm and leg slowly while keeping your lower back flat on the floor."
+  },
+  {
+   "slug": "pallof-press",
+   "name": "Pallof Press",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Stand side-on to the cable, press the handle straight out and resist the twist."
+  },
+  {
+   "slug": "ab-machine",
+   "name": "Ab Machine",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Set the seat, curl your ribs down towards your hips, control the return."
+  },
+  {
+   "slug": "farmer-carry",
+   "name": "Farmer's Carry",
+   "pattern": "core",
+   "muscles": [
+    "core",
+    "back"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "A heavy dumbbell in each hand. Stand tall, shoulders down, walk steady without leaning."
+  },
+  {
+   "slug": "front-squat",
+   "name": "Front Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "core"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Bar across the front of your shoulders, elbows high. Sit straight down, chest up."
+  },
+  {
+   "slug": "box-squat",
+   "name": "Box Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Sit back onto a box at about parallel, pause, then drive up. Good for learning depth."
+  },
+  {
+   "slug": "step-up",
+   "name": "Step-up",
+   "pattern": "squat",
+   "muscles": [
+    "quads",
+    "glutes"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Whole foot on the bench, drive through that heel, control the way down."
+  },
+  {
+   "slug": "sissy-squat",
+   "name": "Sissy Squat",
+   "pattern": "squat",
+   "muscles": [
+    "quads"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Hold a rail, lean back and bend the knees forward. Slow, small range at first."
+  },
+  {
+   "slug": "trap-bar-deadlift",
+   "name": "Trap Bar Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes",
+    "quads"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Stand inside the frame, handles at your sides. Easier on the lower back than a straight bar."
+  },
+  {
+   "slug": "sumo-deadlift",
+   "name": "Sumo Deadlift",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Wide stance, hands inside your knees. Push the floor apart as you stand."
+  },
+  {
+   "slug": "good-morning",
+   "name": "Good Morning",
+   "pattern": "hinge",
+   "muscles": [
+    "hamstrings",
+    "glutes"
+   ],
+   "equipment": "barbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 1,
+   "cue": "Light bar on your back, hinge forward with soft knees and a flat back. Start very light."
+  },
+  {
+   "slug": "kettlebell-swing",
+   "name": "Kettlebell Swing",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Hinge, not squat. Snap the hips through and let the bell float \u2014 arms stay relaxed."
+  },
+  {
+   "slug": "incline-bench",
+   "name": "Incline Bench Press",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "shoulders"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Bench at about 30 degrees. Bar to the top of your chest, elbows tucked slightly."
+  },
+  {
+   "slug": "close-grip-bench",
+   "name": "Close-grip Bench Press",
+   "pattern": "hpush",
+   "muscles": [
+    "triceps",
+    "chest"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Hands about shoulder width. Elbows close to your sides the whole way."
+  },
+  {
+   "slug": "dip",
+   "name": "Dips",
+   "pattern": "hpush",
+   "muscles": [
+    "chest",
+    "triceps"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Lean forward slightly for chest, upright for triceps. Use the assisted machine if you need to."
+  },
+  {
+   "slug": "machine-fly",
+   "name": "Pec Deck",
+   "pattern": "hpush",
+   "muscles": [
+    "chest"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Elbows at chest height on the pads. Squeeze the handles together, control the way back."
+  },
+  {
+   "slug": "arnold-press",
+   "name": "Arnold Press",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Start with palms facing you, rotate outwards as you press overhead."
+  },
+  {
+   "slug": "push-press",
+   "name": "Push Press",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders",
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "A small dip of the knees, then drive the bar overhead. Lets you handle more than a strict press."
+  },
+  {
+   "slug": "cable-lateral",
+   "name": "Cable Lateral Raise",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Cable at the bottom, lift out to the side to shoulder height, slow on the way down."
+  },
+  {
+   "slug": "chest-supported-row",
+   "name": "Chest-supported Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Chest on the pad so you cannot cheat with your lower back. Pull to your ribs."
+  },
+  {
+   "slug": "t-bar-row",
+   "name": "T-bar Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "barbell",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 1,
+   "cue": "Hinge over the bar, flat back, pull the handles to your stomach."
+  },
+  {
+   "slug": "inverted-row",
+   "name": "Inverted Row",
+   "pattern": "hpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Bar at hip height, body straight, pull your chest to the bar. Bend your knees to make it easier."
+  },
+  {
+   "slug": "neutral-pulldown",
+   "name": "Neutral-grip Pulldown",
+   "pattern": "vpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Palms facing each other. Easier on the shoulders than a wide grip."
+  },
+  {
+   "slug": "pull-up",
+   "name": "Pull-ups",
+   "pattern": "vpull",
+   "muscles": [
+    "back"
+   ],
+   "equipment": "bodyweight",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Palms facing away, hang with straight arms, pull until your chin clears the bar."
+  },
+  {
+   "slug": "preacher-curl",
+   "name": "Preacher Curl",
+   "pattern": "arms",
+   "muscles": [
+    "biceps"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Arms flat on the pad. No swinging is even possible, which is the point."
+  },
+  {
+   "slug": "cable-curl",
+   "name": "Cable Curl",
+   "pattern": "arms",
+   "muscles": [
+    "biceps"
+   ],
+   "equipment": "cable",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Constant tension the whole way. Elbows stay at your sides."
+  },
+  {
+   "slug": "skullcrusher",
+   "name": "Skullcrusher",
+   "pattern": "arms",
+   "muscles": [
+    "triceps"
+   ],
+   "equipment": "barbell",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Lying down, lower the bar to your forehead by bending only at the elbow."
+  },
+  {
+   "slug": "dip-machine",
+   "name": "Tricep Dip Machine",
+   "pattern": "arms",
+   "muscles": [
+    "triceps"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Seat set so the handles are at chest height. Press down, elbows close."
+  },
+  {
+   "slug": "seated-calf",
+   "name": "Seated Calf Raise",
+   "pattern": "calves",
+   "muscles": [
+    "calves"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Knees bent under the pad. Full stretch down, pause at the top."
+  },
+  {
+   "slug": "ab-wheel",
+   "name": "Ab Wheel",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "From your knees, roll out only as far as you can keep your back flat. Very short range at first."
+  },
+  {
+   "slug": "side-plank",
+   "name": "Side Plank",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "On one forearm, hips stacked and lifted. Hold, then swap sides."
+  },
+  {
+   "slug": "russian-twist",
+   "name": "Russian Twist",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "Sit leaning back, feet up if you can, rotate the weight side to side under control."
+  },
+  {
+   "slug": "hip-abduction",
+   "name": "Hip Abduction Machine",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Sit tall, push your knees apart against the pads, pause, return slowly."
+  },
+  {
+   "slug": "glute-kickback",
+   "name": "Glute Kickback",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Hips square, drive one leg back and up, squeeze at the top. No arching your lower back."
+  },
+  {
+   "slug": "kb-swing",
+   "name": "Kettlebell Swing",
+   "pattern": "hinge",
+   "muscles": [
+    "glutes",
+    "hamstrings"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "lower",
+   "is_barbell": 0,
+   "cue": "Hinge at the hips, snap them forward. The arms just hold on \u2014 it is not a lift with the shoulders."
+  },
+  {
+   "slug": "machine-lateral",
+   "name": "Lateral Raise Machine",
+   "pattern": "vpush",
+   "muscles": [
+    "shoulders"
+   ],
+   "equipment": "machine",
+   "tier": "accessory",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Pads on the outside of your arms, lift out to shoulder height, lower slowly."
+  },
+  {
+   "slug": "assisted-pullup",
+   "name": "Assisted Pull-up Machine",
+   "pattern": "vpull",
+   "muscles": [
+    "back",
+    "biceps"
+   ],
+   "equipment": "machine",
+   "tier": "core",
+   "area": "upper",
+   "is_barbell": 0,
+   "cue": "Kneel on the pad, hang with straight arms, pull until your chin clears the bar. More assistance is a lighter pull."
+  },
+  {
+   "slug": "reverse-crunch",
+   "name": "Reverse Crunch",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "bodyweight",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "On your back, knees bent, curl your hips off the floor towards your chest. Slow, not swung."
+  },
+  {
+   "slug": "suitcase-carry",
+   "name": "Suitcase Carry",
+   "pattern": "core",
+   "muscles": [
+    "core"
+   ],
+   "equipment": "dumbbell",
+   "tier": "accessory",
+   "area": "core",
+   "is_barbell": 0,
+   "cue": "One heavy dumbbell in one hand. Walk tall without leaning away from it."
+  }
+ ]
+}
